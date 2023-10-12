@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cecece;
+}
+.head{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.his {
+    background-color: #64646496;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+.header{
+    height: 5%;
+    width: 100%;
+    background-color: #00000050;
+    color: #fff;
+    text-align: center;
+    font-size: xx-large;
+    cursor: default;
+}
+.A {
+    height: 160px;
+    width: 100%;
+    background-color: #64646496;
+}
+.chat-container {
+    display: flex;
+    flex: 2 1 auto;
+    height: 100vh;
+}
+.file-input {
+    color: black;
+    background-color: #fff;
+    width: 50px;
+    height: 30px;
+    padding-right: 5px;
+    border-radius: 50px;
+}
+.chat {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #5b5b5b4e;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.chat-messages {
+    height: 100%;
+    padding: 10px;
+    color: rgb(20, 20, 20);
+    overflow-y: auto;
+
+}
+
+.message {
+    background-color: transparent;
+    padding: 8px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    text-align: right;
+}
+
+.response {
+    background-color: transparent;
+    text-align: right;
+}
+
+.chat-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.562);
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.send-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #0056b3;
+    transform: scale(90%);
+
+}
+
+.mode {
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.306);
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.language {
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.306);
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 50px;
+
+}
+.clear {
+    height: 40px;
+    width: 100%;
+    background-color: transparent;  
+    margin-top: 10px;
+}
+.btn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.306);
+    cursor: pointer;
+}
+.btn1::after {
+    transform:scale(10%);
+}
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mode-text {
+    margin-right: 30px;
+    color: #ffffff;
+}
+.men {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.B6 {
+    width: 90px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.B6:hover {
+    background-color: #9c9c9c;
+    transform: scale(90%);
+}
+.Z {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin-right: 20px;
+}
+.log {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(202, 202, 202);
+    height: 50px;
+    width: 100%;
+}
+.list {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1000px;
+    height: 30px;
+    color: #595959;
+    background-color: transparent;
+    box-sizing: border-box;
+    cursor: default;
+}
+.IDE {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: transparent;
+    height: 30px;
+    width: auto;
+}
+.img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin-right: 20px;
+    margin-left: 10px;
+    background-color: #007BFF;
+}
+.name {
+    color: black;
+    margin-right: 10px;
+    cursor: default;
+}
+.B3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 30px;
+    width: 200px;
+}
